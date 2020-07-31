@@ -170,6 +170,8 @@ def player_numbers(team_name)
       return keys[:player].map do |x|  x[:number]
     end
     end
-    binding.pry
+  
 end
+binding.pry
+
 end

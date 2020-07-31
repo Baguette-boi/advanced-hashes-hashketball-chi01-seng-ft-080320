@@ -168,10 +168,8 @@ def player_numbers(team_name)
   game_hash.each do |both_teams, keys|
     if keys[:team_name] == team_name
       return keys[:player].map do |x|  x[:number]
+      binding.pry
     end
-    end
-  
+  end
 end
-binding.pry
-
 end
